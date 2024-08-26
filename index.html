@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-latam">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header></header>
+    <main class="challenge">
+        <section class="container">
+            <h1 class="titulo__encript">Encriptador de texto</h1>
+            <div class="Caja-izq">
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese aquí el texto a encriptar..." id="textArea"></textarea>
+                <div class="info__importante">
+                    <img class="icono__info" src="./assets/Info.png"> 
+                    <h6 class="informacion">Sólo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        
+     <section class="resultado">
+        <div class="main-container">
+            <div class="imagen__lupa"><img src="./assets/encripadorimg.png" alt="mujer con lupa"></div>
+        <textarea class="textArea" cols="20" rows="10">Aún no hemos encontrado un mensaje para encriptar</textarea> 
+        
+    </div>
+
+     </section>
+    </main>
+    <footer><p>Creado por: Constanza Márquez P.</p>
+
+<script src="/script.js"></script>   
+    
+</body>
+</html>

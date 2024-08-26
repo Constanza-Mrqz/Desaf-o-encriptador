@@ -1,0 +1,340 @@
+* {
+    font-family: Roboto;
+    font-weight: 800;
+    line-height: normal;
+}
+
+body {
+    background: url(./assets/fondo.png);
+    background-color: #1B3793;
+    color:#ffffff;
+}
+
+header{
+    height: 0px
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #183183;
+    height: 100px;
+    color: #DADADA;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+
+.challenge {
+    padding: 2% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.titulo__encript {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1%;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    margin-top: 10px;
+    padding-left: 3%;
+    border-radius: 18px;
+    color: #1B3793;
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 82%;
+    height: 300px;
+}
+
+::placeholder { color: #1B3793; width: 50%; display: flex; align-items: center; justify-content: center;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.Caja-izq {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 3%;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 38px;
+    width:80%;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info__importante {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+}
+
+.informacion {
+    vertical-align: middle;
+    color: #1B3793;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.resultado {
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 650px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #344E9D;
+}
+
+.imagen__lupa {
+    width: 60%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textArea {
+    background-color:#1B3793;
+    border-radius: 24px;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0;
+    color: #E5E5E5;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 30px 25px;
+    border: 0;
+    text-align: start;
+}
+
+.btn-copy {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copiar-txt button{
+    background: none;
+    padding: 20px 68px;
+    width: 100%;
+    color: #DADADA;
+    border-color: #DADADA;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.copiar-txt button:hover {
+    color: #1B3793;
+    background: #DADADA;
+    border-radius: 18px;
+}
+
+.mensajee:focus {
+    outline: none;
+}
+
+
+.botones {
+    width: 41%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-encriptar {
+    width: 100%;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #ED4B3E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn-desencriptar {
+    width: 100%;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 18.387px;
+    background: #DADADA;
+    border: 0;
+    color: #1B3793;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    background: #1B3793;
+    color: #DADADA;
+}
+
+
+@media (max-width: 1200px) {
+    
+
+    .challenge {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        width: auto;
+        padding: 10%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .copiar__texto {
+        width: auto;
+    }
+
+    .botones {
+        width: auto;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .Caja-izq {
+        width: auto;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .info__importante {
+        width: auto;
+        display: flex;
+        gap: 2px;
+    }
+
+    ::placeholder {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-area {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .textArea {
+        width: auto;
+        text-align: start;
+        padding: 7%;
+        height: 100px;
+        font-size: 0.95rem;
+    }
+
+    .resultado {
+        width: auto;
+        gap: 10px;
+        height: 510px;
+        padding: 20px;
+
+    }
+    
+    .informacion {
+        width: auto;
+        align-items: center;
+        text-align: start;
+        padding-left: 15px;
+    }
+
+    .imagen__lupa {
+        width: auto;
+        justify-content: center;
+    }
+
+    .titulo__encript {
+        width: auto;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .copiar-txt{        
+        display: flex;
+        width: auto;
+    }
+
+}
